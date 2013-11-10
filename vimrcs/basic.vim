@@ -136,17 +136,16 @@ set foldcolumn=1
 syntax enable 
 
 try
-    colorscheme desert
+    colorscheme Tomorrow-Night-Eighties
 catch
 endtry
-
-set background=dark
 
 " Set extra options when running in GUI mode
 if has("gui_running")
     set guioptions-=T
     set guioptions-=e
     set t_Co=256
+    set guifont=Menlo:h12
     set guitablabel=%M\ %t
 endif
 
